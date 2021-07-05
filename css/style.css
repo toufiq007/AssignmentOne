@@ -121,11 +121,39 @@ body{
 }
 .followers-section .followers{
   width: 300px;
-  /* margin-left: 30px; */
 
 }
 
 .followers-section .followers h1{
   font-size: 50px;
+}
 
+
+.testimonial-section{
+  min-height: 500px;
+  /* margin-bottom: 50px; */
+  background: rgb(194, 205, 209);
+  padding: 50px;
+}
+
+.reviews-section{
+  display: flex;
+  justify-content: space-around;
+}
+.testimonial-section h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin:50px 0px;
+}
+.reviews-section .reviews{
+  width: 600px;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #333;
+}
+.reviews-section .reviews h3,.customer{
+  text-align: right;
+  font-weight: bold;
 }
