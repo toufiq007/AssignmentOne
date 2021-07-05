@@ -10,7 +10,7 @@ body{
   justify-content: space-around;
 }
 
-.hero-section .container{
+.container{
   width: 50%;
 }
 #content{
@@ -44,4 +44,28 @@ body{
 .container img{
   margin-top: 50px;
   width: 80%;
+}
+
+
+.about-section{
+  margin-top: 70px;
+  display: flex;
+  height: 600px;
+  align-items: center;
+  background-image: url(../img/background-bannar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-evenly;
+}
+.about-section .right-content{
+  margin-right: 70px;
+  width:600px;
+}
+.right-content h2{
+  font-size: 40px;
+  color: #1b1b1bce;
+}
+.about-section img{
+  width: 40%;
+  margin-left: 200px;
 }
