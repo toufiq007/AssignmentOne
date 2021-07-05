@@ -131,7 +131,6 @@ body{
 
 .testimonial-section{
   min-height: 500px;
-  /* margin-bottom: 50px; */
   background: rgb(194, 205, 209);
   padding: 50px;
 }
@@ -156,4 +155,31 @@ body{
 .reviews-section .reviews h3,.customer{
   text-align: right;
   font-weight: bold;
+}
+
+
+.contact-form-section{
+  min-height: 700px;
+  background: #fafafa;
+  padding: 30px;
+}
+.contact-form-section h2{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.form-items{
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
 }
