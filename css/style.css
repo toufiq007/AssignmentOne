@@ -116,7 +116,7 @@ body {
   margin: 0 auto;
 }
 .recipie-content h2 {
-  font-size: 30px;
+  font-size: 40px;
   color: #1b1b1bce;
   font-weight: bold;
 }
@@ -174,9 +174,10 @@ body {
 }
 .testimonial-section h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 50px 0px;
+  color: #1b1b1bce;
 }
 .reviews-section .reviews {
   width: 600px;
@@ -202,6 +203,7 @@ body {
   text-align: center;
   font-size: 40px;
   margin: 0;
+  color: #1b1b1bce;
 }
 .contact-form {
   max-width: 600px;
