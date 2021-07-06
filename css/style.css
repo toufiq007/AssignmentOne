@@ -1,53 +1,55 @@
-body{
+body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.hero-section{
+/* Starting Hero Section */
+.hero-section {
   display: flex;
   min-height: 600px;
   align-items: center;
   justify-content: space-around;
 }
 
-.container{
+.container {
   width: 50%;
 }
-#content{
+#content {
   margin-left: 50px;
   padding: 100px;
 }
-#content span{
+#content span {
   color: orange;
 }
-#content h1{
+#content h1 {
   font-size: 50px;
-  margin:0;
+  margin: 0;
   font-weight: 800;
   color: #1b1b1bce;
 }
-#content p{
+#content p {
   /* margin-left: 20px; */
   font-size: 20px;
 }
-.btn{
+.btn {
   text-decoration: none;
-  /* margin-left: 20px; */
   display: inline-block;
   margin-top: 20px;
-  background-image: linear-gradient(45deg,orange,rgb(235, 61, 61));
+  background-image: linear-gradient(45deg, orange, rgb(235, 61, 61));
   color: #fff;
   padding: 15px 30px;
   border-radius: 30px;
   font-weight: 700;
 }
-.container img{
+.container img {
   margin-top: 50px;
   width: 80%;
 }
 
+/* Ending Hero Section */
 
-.about-section{
+/* Starting About us Section */
+.about-section {
   margin-top: 70px;
   display: flex;
   height: 600px;
@@ -57,57 +59,59 @@ body{
   background-size: cover;
   justify-content: space-evenly;
 }
-.about-section .right-content{
+.about-section .right-content {
   margin-right: 70px;
-  width:600px;
+  width: 600px;
 }
-.right-content h2{
+.right-content h2 {
   font-size: 40px;
   color: #1b1b1bce;
 }
-.about-section img{
+.about-section img {
   width: 40%;
   margin-left: 200px;
 }
+/* Ending Hero Section */
 
-
-.recipies-section{
+/* Starting Recipies Section */
+.recipies-section {
   margin-top: 70px;
   margin-bottom: 100px;
 }
-.recipie-content{
+.recipie-content {
   text-align: center;
   width: 60%;
   margin: 0 auto;
 }
-.recipie-content h2{
+.recipie-content h2 {
   font-size: 30px;
-  color: #1b1b1bce;;
+  color: #1b1b1bce;
   font-weight: bold;
 }
 
-.food-items{
+.food-items {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.food-items .repices{
+.food-items .repices {
   width: 400px;
   margin-top: 40px;
-  /* border: 1px solid black; */
   border-radius: 30px;
   box-shadow: 0px 0px 40px gray;
   padding: 20px 20px;
 }
-.food-items .repices h3{
+.food-items .repices h3 {
   font-weight: 800;
 }
-.food-items .repices img{
+.food-items .repices img {
   width: 100%;
   border-radius: 30px;
 }
+/* Ending Recipies Section */
 
-.followers-section{
+/* Starting Followers Section */
+.followers-section {
   width: 80%;
   margin: auto;
   margin-top: 180px;
@@ -119,62 +123,61 @@ body{
   box-shadow: 0px 0px 40px gray;
   border-radius: 20px;
 }
-.followers-section .followers{
+.followers-section .followers {
   width: 300px;
-
 }
-
-.followers-section .followers h1{
+.followers-section .followers h1 {
   font-size: 50px;
 }
+/* Ending Followers Section */
 
-
-.testimonial-section{
+/* Starting Testimonial Section */
+.testimonial-section {
   min-height: 500px;
   background: rgb(194, 205, 209);
   padding: 50px;
 }
 
-.reviews-section{
+.reviews-section {
   display: flex;
   justify-content: space-around;
 }
-.testimonial-section h2{
+.testimonial-section h2 {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  margin:50px 0px;
+  margin: 50px 0px;
 }
-.reviews-section .reviews{
+.reviews-section .reviews {
   width: 600px;
   background: #fff;
   padding: 30px 40px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px #333;
 }
-.reviews-section .reviews h3,.customer{
+.reviews-section .reviews h3,
+.customer {
   text-align: right;
   font-weight: bold;
 }
+/* Ending Testimonial Section */
 
-
-.contact-form-section{
+/* Starting Contact Form Section */
+.contact-form-section {
   min-height: 700px;
   background: #fafafa;
   padding: 30px;
 }
-.contact-form-section h2{
+.contact-form-section h2 {
   text-align: center;
   font-size: 40px;
   margin: 0;
 }
-.contact-form{
+.contact-form {
   max-width: 600px;
   margin: auto;
-
 }
-
-.form-items{
+.form-items {
   display: block;
   width: 100%;
   margin-top: 30px;
@@ -183,33 +186,40 @@ body{
   border-radius: 10px;
   outline: none;
 }
+/* Ending Contact Form Section */
 
-
-footer{
+/* Starting Testimonial Section */
+footer {
   text-align: center;
   background: #000;
   color: #fff;
   padding: 30px 0;
 }
-footer h1{
+footer h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 40px;
   color: #726f6f;
 }
-footer span{
+footer span {
   color: orange;
 }
-footer p{
+footer p {
   margin: 0;
 }
-.copyright-section{
-  background-image: linear-gradient(45deg,orange,rgb(235, 61, 61));
+/* Ending Footer Section */
+
+/* Starting Copyright Section */
+.copyright-section {
+  background-image: linear-gradient(45deg, orange, rgb(235, 61, 61));
   margin: 0;
 }
-.copyright-section p{
+.copyright-section p {
   margin: 0;
   text-align: center;
   color: black;
   font-weight: bold;
 }
+/* Ending Copyright Section */
+
+/* Designed by Mostafizur Rahman Limon */
